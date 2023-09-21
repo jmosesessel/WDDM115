@@ -1,0 +1,97 @@
+body {
+    background-color: azure;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 10rem;
+}
+.name-title{
+    font-size: 3rem;
+    border-bottom: 1px dashed;
+}
+.self-wrap{
+    display: flex;
+    column-gap: 4rem;
+    border-bottom: 1px dashed;
+}
+.self-wrap img{
+    border: 1px solid #ddd;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 56789876678px;
+    box-shadow: 0rem 0rem 2rem #d3d3d3; 
+}
+.self-p {
+    font-size: x-large;
+    line-height: 1.5;
+}
+.profile-link{
+    display: inline-block;
+    margin-top: 2.2rem;
+    font-size: large;
+    padding: 0.3rem 1rem;
+    background-color: rgb(218, 148, 167);
+    text-decoration: none;
+    border-radius: 5px;
+    color:white;
+}
+.profile-link:hover{
+    background-color: #935757;
+}
+.table-wrap{
+    border-bottom: 1px dashed;
+    padding: 2rem 0 4rem;
+}
+table{
+    width: 50rem;
+    border: 1px dashed;
+}
+th, td{
+    padding: 0.5rem;
+}
+.table-head{
+    background-color:rgb(218, 148, 167);
+}
+.even{
+    background-color: rgb(243, 241, 241);
+}
+.odd{
+    background-color: rgb(213, 210, 210);
+}
+.proj-wrap{
+    display: flex;
+    border-bottom: 1px dashed;
+}
+.past-proj {
+    border-right: 1px dashed;
+}
+
+.past-proj, .recent-proj {
+    width: 50%;
+}
+.recent-proj {
+    padding-left: 2rem;
+}
+button {
+    margin-top: 2.2rem;
+    font-size: large;
+    padding: 0.3rem 1rem;
+    background-color: rgb(218, 148, 167);
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #935757;
+}
+.footer-wrap{
+    display: flex;
+    gap: 2rem;
+}
+.video-wrap, .map-wrap{
+    width: 50%;
+}
