@@ -46,7 +46,7 @@ body {
     padding: 2rem 0 4rem;
 }
 table{
-    width: 50rem;
+    width: 100%;
     border: 1px dashed;
 }
 th, td{
