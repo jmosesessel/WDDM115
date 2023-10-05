@@ -95,3 +95,6 @@ button:hover{
 .video-wrap, .map-wrap{
     width: 50%;
 }
+.social-wrap img{
+    width: 2rem;
+}
