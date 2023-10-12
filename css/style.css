@@ -95,3 +95,10 @@ button:hover{
 .video-wrap, .map-wrap{
     width: 50%;
 }
+.social-wrap img{
+    width: 2rem;
+}
+.social-wrap a{
+    margin-right: 1rem;
+    text-decoration: none;
+}
